@@ -8,16 +8,100 @@
   font-family: "Lato", sans-serif;
   font-weight: 400;
   font-style: normal;
+  background-color: rgb(245 245 244);
 }
 
-@media screen and (max-width: 229px){
+@media screen and (min-width: 601px) and (max-width: 1400px){
 
-  *{
-    content-visibility: hidden;
+  .navbar{
+    position: sticky;
+    top: 3%;
+    left:55%;
+    overflow: hidden;
+    background-color: rgb(2 132 199);
+    width: 30%;
+    max-height: 50px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    gap: 10%;
+    margin: 0;
+    padding: 1% 5%;
+    border-radius: 10px;
   }
-} 
 
-@media screen and (max-width: 500px) and (min-width: 230px){
+  main{
+    margin: 0;
+    padding: 5% 8% 0% 8%; 
+    background-color: rgb(245 245 244);
+  }
+ .landing{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: auto auto;
+    row-gap: 10px;
+    align-content: center;
+ }
+ .profile-pic {
+  align-self: center;
+  justify-self: center;
+  max-width: 200px;
+
+}
+.paragraphs{
+  @apply text-center m-4 text-sky-600 text-2xl font-bold;
+}
+
+.subparagraphs{
+  @apply text-left text-sky-600 text-xl font-semibold my-3;
+}
+.lead {
+  @apply text-justify my-5 mx-auto leading-5;
+}
+.social{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  gap: 5%;
+}
+  .buttons{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    gap: 20px;
+  }
+  button{
+    background-color: rgb(2 132 199);
+    color: rgb(245 245 244);
+    padding: 2% 5%;
+    border-radius: 10px;
+    font-size: large;
+  }
+  .CV{
+      display: grid;
+      grid-template-columns: 50% 50%;
+      grid-template-rows: 10% 45% 45%;
+      row-gap: 10px;
+      align-content: center;
+   }
+
+   .skills{
+    display: grid;
+    grid-template-columns: 50px 50px 50px 50px 50px 50px;
+    gap: 30px;
+    margin: 10%;
+  }
+  .portfolio{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 10% 45% 45%;
+    row-gap: 10px;
+    align-content: center;
+  }
+}
+
+
+@media screen and (min-width: 230px) and (max-width: 600px){
 
   .navbar{
     position: sticky;
@@ -32,21 +116,22 @@
     gap: 10%;
     margin: 0;
     padding: 1% 5%;
-    border-radius: 1% 1% 5% 5%;
-  }
-  .nvabar > a {
-    font-size: 2px;
+    border-radius: 0 0 8px 8px;
   }
 
   main{
     padding: 5% 8% 0% 8%; 
     background-color: rgb(245 245 244);
   }
-  .overlay
-  {
-    content-visibility: hidden;
+
+  .profile-pic {
+    @apply mx-auto w-6/12;
+    max-width: 200px;
   }
 
+  .lead {
+    @apply text-justify my-5 mx-auto leading-5;
+  }
   .social{
     display: flex;
     justify-content: center;
@@ -71,11 +156,11 @@
     margin: 4%;
   }
   .paragraphs{
-    @apply text-center m-4 text-sky-600 text-2xl font-bold
+    @apply text-center m-4 text-sky-600 text-2xl font-bold;
   }
 
   .subparagraphs{
-    @apply text-left text-sky-600 text-xl font-semibold my-3
+    @apply text-left text-sky-600 text-xl font-semibold my-3;
   }
   .lists{
     @apply indent-4
@@ -101,6 +186,14 @@
     margin: 5% 0%;
   }
 }
+
+@media screen and (max-width: 229px){
+
+  *{
+    content-visibility: hidden;
+  }
+} 
+
 /* :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
