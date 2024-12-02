@@ -7,17 +7,23 @@ function App() {
 return (
 	
 	<>
+		<div class = "big-webpage">
 		<nav class="navbar">
-			<a href className="text-base text-stone-100 bg-sky-600">
+			<a href class="navi-links">
 				Home
 			</a>
-			<a href className="text-base text-stone-100  bg-sky-600">
+			<a href class="navi-links">
 				About
 			</a>
-			<a href className="text-base text-stone-100  bg-sky-600">
+			<a href class="navi-links">
 				Projects
 			</a>
-		{/* Maybe put the buttons here and keep hidden? */}
+			<section class = "social-menu">
+				<img src="github.svg" class="icon" alt="github logo" />
+				<img src="linkedin.svg" class="icon" alt="linkedin logo" />
+				<img src="instagram.svg" class="icon" alt="instagram logo" />
+				<img src="behance.svg" class="icon" alt="behance logo" />
+			</section>
 		</nav>
 		<main>
 			<section class="landing">
@@ -33,10 +39,10 @@ return (
 				</p>
 				</section>
 				<article class = "social">
-					<img src={viteLogo} className="logo" alt="Vite logo" />
-					<img src={viteLogo} className="logo" alt="Vite logo" />
-					<img src={viteLogo} className="logo" alt="Vite logo" />
-					<img src={viteLogo} className="logo" alt="Vite logo" />
+					<img src="github.svg" class="icon" alt="github logo" />
+					<img src="linkedin.svg" class="icon" alt="linkedin logo" />
+					<img src="instagram.svg" class="icon"alt="instagram logo" />
+					<img src="behance.svg"  class="icon" alt="behance logo" />
 				</article>
 				<article class = "buttons">
 					<button> Hire </button>
@@ -76,18 +82,18 @@ return (
 						Skills
 					</h2>
 					<article class="skills">
-						<img src={viteLogo} className="logo" alt="Vite logo" />
-						<img src={viteLogo} className="logo" alt="Vite logo" />
-						<img src={viteLogo} className="logo" alt="Vite logo" />
-						<img src={viteLogo} className="logo" alt="Vite logo" />
-						<img src={viteLogo} className="logo" alt="Vite logo" />
-						<img src={viteLogo} className="logo" alt="Vite logo" />
-						<img src={viteLogo} className="logo" alt="Vite logo" />
-						<img src={viteLogo} className="logo" alt="Vite logo" />
-						<img src={viteLogo} className="logo" alt="Vite logo" />
-						<img src={viteLogo} className="logo" alt="Vite logo" />
-						<img src={viteLogo} className="logo" alt="Vite logo" />
-						<img src={viteLogo} className="logo" alt="Vite logo" />
+						<img src={viteLogo} class="icon" alt="Vite logo" />
+						<img src={viteLogo} class="icon" alt="Vite logo" />
+						<img src={viteLogo} class="icon" alt="Vite logo" />
+						<img src={viteLogo} class="icon" alt="Vite logo" />
+						<img src={viteLogo} class="icon" alt="Vite logo" />
+						<img src={viteLogo} class="icon" alt="Vite logo" />
+						<img src={viteLogo} class="icon" alt="Vite logo" />
+						<img src={viteLogo} class="icon" alt="Vite logo" />
+						<img src={viteLogo} class="icon" alt="Vite logo" />
+						<img src={viteLogo} class="icon" alt="Vite logo" />
+						<img src={viteLogo} class="icon" alt="Vite logo" />
+						<img src={viteLogo} class="icon" alt="Vite logo" />
 					</article>
 				</article>
 			</section>
@@ -112,14 +118,15 @@ return (
 				<article class ="project-portfolio">
 					<img src="images.jpg" alt="an illustration for Nice Project" class="portfolio-picture"/>
 				</article>
-				<article>
+				<article class ="project-portfolio">
 					<img src="images.jpg" alt="an illustration for Nice Project" class="portfolio-picture"/>
 				</article>
-				<article>
+				<article class ="project-portfolio">
 					<img src="images.jpg" alt="an illustration for Nice Project" class="portfolio-picture"/>
 				</article>
 			</section>
 		</main>
+		</div>
 	</>
 
 	// <>
