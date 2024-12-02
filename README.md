@@ -17,17 +17,6 @@ This website is built using **React**, **Vite**, and **Tailwind CSS** to showcas
 - **Social Links**: GitHub, LinkedIn, Instagram, and Behance icons to connect with me! 🌐
 - **Responsive Design**: Looks great on all screen sizes! 📱💻🖥️
 
-## 🛠️ Technologies Used
-
-- **.NET Framework** 🌐
-- **Entity Framework** ⚙️
-- **Azure** ☁️
-- **C, C++, Python** 🧑‍💻
-- **React** ⚛️
-- **Tailwind CSS** 🌸
-- **Docker** 🐋
-- **Linux** 🐧
-- **SQLite** 📦
 
 ## 📌 Sections
 
