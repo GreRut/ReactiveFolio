@@ -19,16 +19,16 @@ return (
 				Projects
 			</a>
 			<section class = "social-menu">
-				<img src="github.svg" class="icon" alt="github logo" />
-				<img src="linkedin.svg" class="icon" alt="linkedin logo" />
-				<img src="instagram.svg" class="icon" alt="instagram logo" />
-				<img src="behance.svg" class="icon" alt="behance logo" />
+				<img src="/ReactiveFolio/github.svg" class="icon" alt="github logo" />
+				<img src="/ReactiveFolio/linkedin.svg" class="icon" alt="linkedin logo" />
+				<img src="/ReactiveFolio/instagram.svg" class="icon" alt="instagram logo" />
+				<img src="/ReactiveFolio/behance.svg" class="icon" alt="behance logo" />
 			</section>
 		</nav>
 		<main>
 			<section class="landing">
 				<section class ="profile-pic">
-				<img src="profilePic.png"  alt="Gregor's profile picture"  />
+				<img src="/ReactiveFolio/profilePic.png"  alt="Gregor's profile picture"  />
 				</section>
 				<section>
 				<h1 class="paragraphs">
@@ -39,10 +39,10 @@ return (
 				</p>
 				</section>
 				<article class = "social">
-					<img src="github.svg" class="icon" alt="github logo" />
-					<img src="linkedin.svg" class="icon" alt="linkedin logo" />
-					<img src="instagram.svg" class="icon"alt="instagram logo" />
-					<img src="behance.svg"  class="icon" alt="behance logo" />
+					<img src="/ReactiveFolio/github.svg" class="icon" alt="github logo" />
+					<img src="/ReactiveFolio/linkedin.svg" class="icon" alt="linkedin logo" />
+					<img src="/ReactiveFolio/instagram.svg" class="icon"alt="instagram logo" />
+					<img src="/ReactiveFolio/behance.svg"  class="icon" alt="behance logo" />
 				</article>
 				<article class = "buttons">
 					<button> Hire </button>
@@ -82,10 +82,10 @@ return (
 						Skills
 					</h2>
 					<article class="skills">
-						<img src={viteLogo} class="icon" alt="Vite logo" />
-						<img src={viteLogo} class="icon" alt="Vite logo" />
-						<img src={viteLogo} class="icon" alt="Vite logo" />
-						<img src={viteLogo} class="icon" alt="Vite logo" />
+						<img src="/ReactiveFolio/dotnet.svg" class="icon" alt="dotnet logo" />
+						<img src="/ReactiveFolio/c.svg" class="icon" alt="C logo" />
+						<img src="/ReactiveFolio/python.svg" class="icon" alt="Python logo" />
+						<img src="/ReactiveFolio/javascript.svg" class="icon" alt="javascript logo" />
 						<img src={viteLogo} class="icon" alt="Vite logo" />
 						<img src={viteLogo} class="icon" alt="Vite logo" />
 						<img src={viteLogo} class="icon" alt="Vite logo" />
