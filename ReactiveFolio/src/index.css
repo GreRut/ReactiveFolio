@@ -54,6 +54,7 @@ a {
     grid-template-rows: 50% 50%;
     align-items: center;
     justify-items: center;
+    background-color: #183FA8ff;
 
   }
   main{

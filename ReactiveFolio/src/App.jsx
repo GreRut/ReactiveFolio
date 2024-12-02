@@ -9,13 +9,13 @@ return (
 	<>
 		<div class = "big-webpage">
 		<nav class="navbar">
-			<a href class="navi-links">
+			<a href="#landing" class="navi-links">
 				Home
 			</a>
-			<a href class="navi-links">
+			<a href="#CV" class="navi-links">
 				About
 			</a>
-			<a href class="navi-links">
+			<a href="#portfolio" class="navi-links">
 				Projects
 			</a>
 			<section class = "social-menu">
@@ -26,7 +26,7 @@ return (
 			</section>
 		</nav>
 		<main>
-			<section class="landing">
+			<section class="landing" id="landing">
 				<section class ="profile-pic">
 				<img src="/ReactiveFolio/profilePic.png"  alt="Gregor's profile picture"  />
 				</section>
@@ -49,7 +49,7 @@ return (
 					<button> Resume </button>
 				</article>
 			</section>
-			<section class = "CV">
+			<section class = "CV" id="CV">
 				<article>
 					<h1 class="paragraphs">
 						About
@@ -86,18 +86,18 @@ return (
 						<img src="/ReactiveFolio/c.svg" class="icon" alt="C logo" />
 						<img src="/ReactiveFolio/python.svg" class="icon" alt="Python logo" />
 						<img src="/ReactiveFolio/javascript.svg" class="icon" alt="javascript logo" />
-						<img src={viteLogo} class="icon" alt="Vite logo" />
-						<img src={viteLogo} class="icon" alt="Vite logo" />
-						<img src={viteLogo} class="icon" alt="Vite logo" />
-						<img src={viteLogo} class="icon" alt="Vite logo" />
-						<img src={viteLogo} class="icon" alt="Vite logo" />
-						<img src={viteLogo} class="icon" alt="Vite logo" />
-						<img src={viteLogo} class="icon" alt="Vite logo" />
-						<img src={viteLogo} class="icon" alt="Vite logo" />
+						<img src="/ReactiveFolio/html5.svg" class="icon" alt="html logo" />
+						<img src="/ReactiveFolio/css3.svg" class="icon" alt="Css logo" />
+						<img src="/ReactiveFolio/react.svg" class="icon" alt="React logo" />
+						<img src="/ReactiveFolio/sqlite.svg" class="icon" alt="SQLite logo" />
+						<img src="/ReactiveFolio/tailwindcss.svg" class="icon" alt="Tailwind logo" />
+						<img src="/ReactiveFolio/blazor.svg" class="icon" alt="Blazor logo" />
+						<img src="/ReactiveFolio/linux.svg" class="icon" alt="Linux logo" />
+						<img src="/ReactiveFolio/docker.svg" class="icon" alt="Docker logo" />
 					</article>
 				</article>
 			</section>
-			<section class ="portfolio">
+			<section class ="portfolio" id="portfolio">
 				<article>
 					<h1 class = "paragraphs">
 						Projects
@@ -116,13 +116,13 @@ return (
 					</ul>
 				</article>
 				<article class ="project-portfolio">
-					<img src="images.jpg" alt="an illustration for Nice Project" class="portfolio-picture"/>
+					<img src="/ReactiveFolio/images.jpg" alt="an illustration for Nice Project" class="portfolio-picture"/>
 				</article>
 				<article class ="project-portfolio">
-					<img src="images.jpg" alt="an illustration for Nice Project" class="portfolio-picture"/>
+					<img src="/ReactiveFolio/images.jpg" alt="an illustration for Nice Project" class="portfolio-picture"/>
 				</article>
 				<article class ="project-portfolio">
-					<img src="images.jpg" alt="an illustration for Nice Project" class="portfolio-picture"/>
+					<img src="/ReactiveFolio/images.jpg" alt="an illustration for Nice Project" class="portfolio-picture"/>
 				</article>
 			</section>
 		</main>
