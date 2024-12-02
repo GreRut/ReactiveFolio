@@ -9,15 +9,17 @@ return (
 	<>
 		<div class = "big-webpage">
 		<nav class="navbar">
-			<a href="#landing" class="navi-links">
-				Home
-			</a>
-			<a href="#CV" class="navi-links">
-				About
-			</a>
-			<a href="#portfolio" class="navi-links">
-				Projects
-			</a>
+			<section class = "nav2">
+				<a href="#landing" class="navi-links">
+					Home
+				</a>
+				<a href="#CV" class="navi-links">
+					About
+				</a>
+				<a href="#portfolio" class="navi-links">
+					Projects
+				</a>
+			</section>
 			<section class = "social-menu">
 				<img src="/ReactiveFolio/github.svg" class="icon" alt="github logo" />
 				<img src="/ReactiveFolio/linkedin.svg" class="icon" alt="linkedin logo" />
@@ -108,21 +110,21 @@ return (
 				</article>
 					<article>
 					<h2 class="subparagraphs">
-						Nice Project
+						Hasthagenskola
 					</h2>
 					<ul class="lists">
-						<li>Place: London</li>
-						<li>Space: Sqaure meters</li>
+						<li>Place: Stockholm</li>
+						<li>Type: Public Primary School</li>
 					</ul>
 				</article>
 				<article class ="project-portfolio">
-					<img src="/ReactiveFolio/images.jpg" alt="an illustration for Nice Project" class="portfolio-picture"/>
+					<img src="/ReactiveFolio/hast1.jpg" alt="a Picture of Hastahagen school" class="portfolio-picture"/>
 				</article>
 				<article class ="project-portfolio">
-					<img src="/ReactiveFolio/images.jpg" alt="an illustration for Nice Project" class="portfolio-picture"/>
+					<img src="/ReactiveFolio/hast2.jpg" alt="a Picture of Hastahagen school" class="portfolio-picture"/>
 				</article>
 				<article class ="project-portfolio">
-					<img src="/ReactiveFolio/images.jpg" alt="an illustration for Nice Project" class="portfolio-picture"/>
+					<img src="/ReactiveFolio/hast3.jpg" alt="a Picture of Hastahagen school" class="portfolio-picture"/>
 				</article>
 			</section>
 		</main>
